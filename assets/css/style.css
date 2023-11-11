@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Raleway:ital,wght@0,400;0,500;1,400&display=swap');
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #782221;
+    align-items: center;
+}
+header h1{
+    font-family: "lato";
+}
+header h2{
+    font-family: "lato";
+}
+body {  
+    
+    width: 1160px;   
+}
+figure {  
+    width: 150px;
+    height: 150px;  
+}
+
+#photo-profile {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50% ; 
+    box-shadow: 3px 3px 3px #dbc2a4;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    background-color: #782221;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    font-family: "raleway";
+
+}
+
+#container-footer img {
+    width: 20PX;
+   
+}
+
+
+
+nav{ 
+    display: flex;
+    background-color: #2c1d27;
+    gap: 10em;
+    height: 3em;
+    text-align: center;
+    color: white;
+
+}
+main{
+    display: flex;
+    justify-content: space-between;
+    
+    
+
+}
+aside {
+    font-family: "raleway";
+    justify-content: flex-start;
+    background-color: #782221;
+    width: 25em;
+    text-indent: 2em;
+    text-align:left;
+    text-align: justify;
+    padding: 1em ;
+    color: whitesmoke;
+    
+    
+       
+}
+aside h2{
+
+    font-family: "lato";
+    background-color: #dbc2a4;
+    color: black;
+}
+
+section {
+   font-family: "raleway";
+   width: 70%;
+   padding-left: 3em;
+   border-right:  solid #2c1d27;
+}
+section h2{
+    font-family: "lato" ;
+    padding-left: 1em;
+    background-color: #dbc2a4;
+}
